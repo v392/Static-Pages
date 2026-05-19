@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Navbar</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="navbar_tailwind.css">
+    <!--<script src="https://cdn.tailwindcss.com"></script>-->
+  </head>
+  <body>
+    <nav class="navbar-desktop hidden">
+      <div class="top-section">
+        <button class="menu-button">
+          <img class="menu-icon" src="../../Images/menu-icon.svg">
+        </button>
+        <button class="logo-button">
+          <div class="logo-img"></div>
+        </button>
+        <div class="search-bar">
+          <input class="search-input" placeholder="Search For A Service">
+          <button class="search-button">
+            <img class="search-icon" src="../../Images/search-icon.svg">
+          </button>
+        </div>
+        <button class="profile-button">
+          <img class="profile-icon" src="../../Images/profile-icon.svg">
+        </button>
+      </div>
+
+      <div class="side-section">
+        <button class="sidebar-button">
+          <div><img class="side-icon home-icon" src="../../Images/home-icon.svg" height="33px"></div>
+          Home
+        </button>
+        <button class="sidebar-button">
+          <div><img class="side-icon home-icon" src="../../Images/services-icon.svg" height="33px"></div>
+          Services
+        </button>
+        <button class="sidebar-button">
+          <div><img class="side-icon home-icon" src="../../Images/handymen-icon.svg" height="33px"></div>
+          Handymen
+        </button>
+        <button class="sidebar-button">
+          <div><img class="side-icon home-icon" src="../../Images/register-as-a-handyman-icon.svg" height="33px"></div>
+          Register As A Handyman
+        </button>
+        <button class="sidebar-button">
+          <div><img class="side-icon home-icon" src="../../Images/about-us-icon.svg" height="33px"></div>
+          About Us
+        </button>
+        <button class="sidebar-button">
+          <div><img class="side-icon home-icon" src="../../Images/tos-icon.svg" height="33px"></div>
+          Terms Of Service
+        </button>
+        <button class="sidebar-button">
+          <div><img class="side-icon home-icon" src="../../Images/privacy-policy-icon.svg" height="33px"></div>
+          Privacy Policy
+        </button>
+      </div>
+    </nav>
+
+    <nav class="navbar-mobile
+    text-[13px]">
+      <div class="top-section-m fixed top-[0] left-[0] right-[0] flex justify-center items-center gap-[15px] px-[10px] py-[20px] py-[23px] bg-[white] border-b border-[rgba(0,0,0,0.07)]">
+        <div class="h-[25px] w-[80px] border-0 bg-[blue]"></div>
+        <div class="flex flex-1 justify-between items-center pl-[8px] pr-[6px] py-[5px] mr-[60px] border border-solid rounded-[15px]">
+          <input class="flex-1 border-0" placeholder="Search For A Service">
+          <img class="h-[25px] my-[-10px]" src="../../Images/search-icon.svg">
+        </div>
+      </div>
+
+      <div class="bottom-section-m fixed bottom-[0] left-[0] right-[0] flex justify-center items-center gap-[45px] pt-[8.5px] pb-[6.25px] py-[10px] bg-[white] border-t border-[rgba(0,0,0,0.07)]">
+        <button class="flex flex-col justify-center items-center border-0 bg-[transparent]">
+          <img class="h-[25px]" src="../../Images/home-icon.svg">
+          <p class="mt-[5px] mb-[0]">Home</p>
+        </button>
+        <button class="flex flex-col justify-center items-center border-0 bg-[transparent]">
+          <img class="h-[25px]" src="../../Images/services-icon.svg">
+          <p class="mt-[5px] mb-[0]">Services</p>
+        </button>
+        <button class="flex flex-col justify-center items-center border-0 bg-[transparent]">
+          <img class="h-[25px]" src="../../Images/handymen-icon.svg">
+          <p class="mt-[5px] mb-[0]">Handymen</p>
+        </button>
+        <button class="flex flex-col justify-center items-center border-0 bg-[transparent]">
+          <img class="h-[25px]" src="../../Images/profile-icon.svg">
+          <p class="mt-[5px] mb-[0]">Profile</p>
+        </button>
+      </div>
+    </nav>
+  </body>
+</html>

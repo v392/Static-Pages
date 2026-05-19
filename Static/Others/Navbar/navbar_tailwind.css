@@ -1,0 +1,140 @@
+@media (max-width: 767px){
+  @layer properties;
+  .fixed {
+    position: fixed;
+  }
+  .top-\[0\] {
+    top: 0;
+  }
+  .right-\[0\] {
+    right: 0;
+  }
+  .bottom-\[0\] {
+    bottom: 0;
+  }
+  .left-\[0\] {
+    left: 0;
+  }
+  .my-\[-10px\] {
+    margin-block: -10px;
+  }
+  .mt-\[5px\] {
+    margin-top: 5px;
+  }
+  .mr-\[60px\] {
+    margin-right: 60px;
+  }
+  .mb-\[0\] {
+    margin-bottom: 0;
+  }
+  .flex {
+    display: flex;
+  }
+  .hidden {
+    display: none;
+  }
+  .h-\[25px\] {
+    height: 25px;
+  }
+  .w-\[80px\] {
+    width: 80px;
+  }
+  .flex-1 {
+    flex: 1;
+  }
+  .flex-col {
+    flex-direction: column;
+  }
+  .items-center {
+    align-items: center;
+  }
+  .justify-between {
+    justify-content: space-between;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .gap-\[15px\] {
+    gap: 15px;
+  }
+  .gap-\[45px\] {
+    gap: 45px;
+  }
+  .rounded-\[15px\] {
+    border-radius: 15px;
+  }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
+  .border-0 {
+    border-style: var(--tw-border-style);
+    border-width: 0px;
+  }
+  .border-t {
+    border-top-style: var(--tw-border-style);
+    border-top-width: 1px;
+  }
+  .border-b {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 1px;
+  }
+  .border-solid {
+    --tw-border-style: solid;
+    border-style: solid;
+  }
+  .border-\[rgba\(0\,0\,0\,0\.07\)\] {
+    border-color: rgba(0,0,0,0.07);
+  }
+  .bg-\[blue\] {
+    background-color: blue;
+  }
+  .bg-\[transparent\] {
+    background-color: transparent;
+  }
+  .bg-\[white\] {
+    background-color: white;
+  }
+  .px-\[10px\] {
+    padding-inline: 10px;
+  }
+  .py-\[5px\] {
+    padding-block: 5px;
+  }
+  .py-\[10px\] {
+    padding-block: 10px;
+  }
+  .py-\[20px\] {
+    padding-block: 20px;
+  }
+  .py-\[23px\] {
+    padding-block: 23px;
+  }
+  .pt-\[8\.5px\] {
+    padding-top: 8.5px;
+  }
+  .pr-\[6px\] {
+    padding-right: 6px;
+  }
+  .pb-\[6\.25px\] {
+    padding-bottom: 6.25px;
+  }
+  .pl-\[8px\] {
+    padding-left: 8px;
+  }
+  .text-\[13px\] {
+    font-size: 13px;
+  }
+  @property --tw-border-style {
+    syntax: "*";
+    inherits: false;
+    initial-value: solid;
+  }
+  @layer properties {
+    @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
+      *, ::before, ::after, ::backdrop {
+        --tw-border-style: solid;
+      }
+    }
+  }
+}
