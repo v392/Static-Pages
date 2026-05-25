@@ -14,3 +14,6 @@ a, a:visited, a:hover, a:active{
   background-color: inherit;
   -webkit-tap-highlight-color: transparent;
 }
+a:hover .bottom-section-m{
+  display: block;
+}
