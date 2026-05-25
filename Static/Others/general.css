@@ -8,7 +8,8 @@ button{
   text-align: center;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 }
-a{
+a, a:visited, a:hover, a:active{
   text-decoration: none;
   color: inherit;
+  background-color: inherit;
 }
