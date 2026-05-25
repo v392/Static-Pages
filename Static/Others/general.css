@@ -17,6 +17,7 @@ a, a:visited, a:hover, a:active{
 a:hover .bottom-section-m{
   display: block;
 }
-a:focus{
-  background-color: red;
+a{
+  all: unset;
+  display: block;
 }
