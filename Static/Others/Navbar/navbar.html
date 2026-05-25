@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Navbar</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="navbar_tailwind.css">
+    <link rel="stylesheet" href="../general.css">
+    <!--<script src="https://cdn.tailwindcss.com"></script>-->
+  </head>
+  <body>
+    <nav class="navbar-desktop hidden">
+      <div class="top-section">
+        <button class="menu-button">
+          <img class="menu-icon" src="../../Images/Light_Theme/Others/menu_icon_L.svg">
+        </button>
+        <button class="logo-button">
+          <div class="logo-img"></div>
+        </button>
+        <div class="search-bar">
+          <input class="search-input" placeholder="Search For A Service">
+          <button class="search-button">
+            <img class="search-icon" src="../../Images/Light_Theme/Others/search_icon_L.svg">
+          </button>
+        </div>
+        <button class="profile-button">
+          <img class="profile-icon" src="../../Images/Light_Theme/Inactive/profile_icon_LI.svg">
+        </button>
+      </div>
+
+      <div class="side-section">
+        <button class="sidebar-button">
+          <div><img class="side-icon" src="../../Images/Light_Theme/Inactive/home_icon_LI.svg"></div>
+          Home
+        </button>
+        <button class="sidebar-button">
+          <div><img class="side-icon" src="../../Images/Light_Theme/Inactive/services_icon_LI.svg"></div>
+          Services
+        </button>
+        <button class="sidebar-button">
+          <div><img class="side-icon" src="../../Images/Light_Theme/Inactive/handymen_icon_LI.svg"></div>
+          Handymen
+        </button>
+        <button class="sidebar-button">
+          <div><img class="side-icon" src="../../Images/Light_Theme/Others/register_as_a_handyman_icon_L.svg"></div>
+          Register As A Handyman
+        </button>
+        <button class="sidebar-button">
+          <div><img class="side-icon" src="../../Images/Light_Theme/Inactive/about_us_icon_LI.svg"></div>
+          About Us
+        </button>
+        <button class="sidebar-button">
+          <div><img class="side-icon" src="../../Images/Light_Theme/Inactive/terms_of_service_icon_LI.svg"></div>
+          Terms Of Service
+        </button>
+        <button class="sidebar-button">
+          <div><img class="side-icon" src="../../Images/Light_Theme/Inactive/privacy_policy_icon_LI.svg"></div>
+          Privacy Policy
+        </button>
+      </div>
+    </nav>
+
+    <nav class="navbar-mobile
+    text-[13px]">
+      <div class="top-section-m fixed top-[0] left-[0] right-[0] flex justify-center items-center gap-[15px] px-[10px] py-[20px] py-[23px] bg-[white] border-b border-[rgba(0,0,0,0.07)]">
+        <div class="h-[25px] w-[80px] border-0 bg-[#1D4BCF]"></div>
+        <div class="flex flex-1 justify-between items-center pl-[8px] pr-[6px] py-[5px] mr-[60px] border border-solid rounded-[100px]">
+          <input class="flex-1 border-0 focus:ring-0 focus:outline-none" placeholder="Search For A Service">
+          <img class="h-[20px] ml-[3.6px] mr-[3px]" src="../../Images/Light_Theme/Others/search_icon_L.svg">
+        </div>
+      </div>
+
+      <div class="bottom-section-m fixed bottom-[0] left-[0] right-[0] flex justify-between items-center pb-[6.25px] bg-[white] border-t border-[rgba(0,0,0,0.07)]">
+        <button class="flex-1 flex flex-col justify-center items-center pt-[10px] border-0 bg-[transparent]">
+          <img class="h-[22px]" src="../../Images/Light_Theme/Inactive/home_icon_LI.svg">
+          <p class="mt-[7px] mb-[0]">Home</p>
+        </button>
+        <button class="flex-1 flex flex-col justify-center items-center pt-[10px] border-0 bg-[transparent]">
+          <img class="h-[22px]" src="../../Images/Light_Theme/Inactive/services_icon_LI.svg">
+          <p class="mt-[7px] mb-[0]">Services</p>
+        </button>
+        <button class="flex-1 flex flex-col justify-center items-center pt-[10px] border-0 bg-[transparent]">
+          <img class="h-[22px]" src="../../Images/Light_Theme/Inactive/handymen_icon_LI.svg">
+          <p class="mt-[7px] mb-[0]">Handymen</p>
+        </button>
+        <button class="flex-1 flex flex-col justify-center items-center pt-[10px] border-0 bg-[transparent]">
+          <img class="h-[22px]" src="../../Images/Light_Theme/Inactive/profile_icon_LI.svg">
+          <p class="mt-[7px] mb-[0]">Profile</p>
+        </button>
+      </div>
+    </nav>
+  </body>
+</html>
