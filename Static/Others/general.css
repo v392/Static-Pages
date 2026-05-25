@@ -14,10 +14,9 @@ a, a:visited, a:hover, a:active{
   background-color: inherit;
   -webkit-tap-highlight-color: transparent;
 }
-a:hover .bottom-section-m{
-  display: block;
-}
-a{
-  all: unset;
-  display: block;
+@media (hover: none){
+  a:active {
+    transition: none;
+    transform: none;
+  }
 }
