@@ -1,9 +1,9 @@
-body{
+html, body{
   background-color: #FDFDFD;
   text-align: center;
   margin: 0;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
-  scroll-behavior: auto;
+  overscroll-behavior: none;
 }
 button{
   text-align: center;
@@ -14,5 +14,4 @@ a, a:visited, a:hover, a:active{
   color: inherit;
   background-color: inherit;
   -webkit-tap-highlight-color: transparent;
-  pointer-events: auto;
 }
