@@ -3,7 +3,6 @@ html, body{
   text-align: center;
   margin: 0;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
-  overscroll-behavior: none;
 }
 button{
   text-align: center;
@@ -14,4 +13,5 @@ a, a:visited, a:hover, a:active{
   color: inherit;
   background-color: inherit;
   -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
 }
