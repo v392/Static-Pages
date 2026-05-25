@@ -33,6 +33,9 @@
   .flex {
     display: flex;
   }
+  .hidden {
+    display: none;
+  }
   .h-\[20px\] {
     height: 20px;
   }
@@ -47,6 +50,9 @@
   }
   .flex-1 {
     flex: 1;
+  }
+  .touch-manipulation {
+    touch-action: manipulation;
   }
   .flex-col {
     flex-direction: column;
