@@ -13,5 +13,4 @@ a, a:visited, a:hover, a:active{
   color: inherit;
   background-color: inherit;
   -webkit-tap-highlight-color: transparent;
-  touch-action: manipulation;
 }
