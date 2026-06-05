@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Handymen</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="handymen.css">
+    <link rel="stylesheet" href="handymen_tailwind.css">
+    <link rel="stylesheet" href="../Others/Navbar/navbar.css">
+    <link rel="stylesheet" href="../Others/Navbar/navbar_tailwind.css">
+    <link rel="stylesheet" href="../Others/general.css">
+  </head>
+  <body>
+    <nav class="navbar-desktop hidden">
+      <div class="top-section">
+        <button class="menu-button">
+          <img class="menu-icon" src="../Images/Light_Theme/Others/menu_icon_L.svg">
+        </button>
+        <a class="logo-button">
+          <div class="logo-img"></div>
+        </a>
+        <div class="search-bar">
+          <input class="search-input" placeholder="Search For A Service">
+          <button class="search-button">
+            <img class="search-icon" src="../Images/Light_Theme/Others/search_icon_L.svg">
+          </button>
+        </div>
+        <button class="profile-button">
+          <img class="profile-icon" src="../Images/Light_Theme/Inactive/profile_icon_LI.svg">
+        </button>
+      </div>
+    </nav>
+
+    <nav class="navbar-mobile
+    text-[13px]">
+      <div class="top-section-m fixed top-[0] left-[0] right-[0] flex justify-center items-center gap-[15px] px-[10px] py-[20px] py-[23px] bg-[white] border-b border-[rgba(0,0,0,0.07)]">
+        <div class="h-[25px] w-[80px] border-0 bg-[#1D4BCF]"></div>
+        <div class="flex flex-1 justify-between items-center pl-[8px] pr-[6px] py-[5px] mr-[60px] border border-solid rounded-[100px]">
+          <input class="flex-1 border-0 focus:ring-0 focus:outline-none" placeholder="Search For A Service">
+          <img class="h-[20px] ml-[3.6px] mr-[3px]" src="../Images/Light_Theme/Others/search_icon_L.svg">
+        </div>
+      </div>
+
+      <div class="bottom-section-m fixed bottom-[0] left-[0] right-[0] flex justify-between items-center pb-[6.25px] bg-[white] border-t border-[rgba(0,0,0,0.07)]">
+        <a class="flex-1 flex flex-col justify-center items-center pt-[10px] border-0 bg-[transparent]">
+          <img class="h-[22px]" src="../Images/Light_Theme/Inactive/home_icon_LI.svg">
+          <p class="mt-[7px] mb-[0]">Home</p>
+        </a>
+        <a class="flex-1 flex flex-col justify-center items-center pt-[10px] border-0 bg-[transparent]">
+          <img class="h-[22px]" src="../Images/Light_Theme/Inactive/services_icon_LI.svg">
+          <p class="mt-[7px] mb-[0]">Services</p>
+        </a>
+        <a class="flex-1 flex flex-col justify-center items-center pt-[10px] border-0 bg-[transparent]">
+          <img class="h-[22px]" src="../Images/Light_Theme/Inactive/handymen_icon_LI.svg">
+          <p class="mt-[7px] mb-[0]">Handymen</p>
+        </a>
+        <a class="flex-1 flex flex-col justify-center items-center pt-[10px] border-0 bg-[transparent]">
+          <img class="h-[22px]" src="../Images/Light_Theme/Inactive/profile_icon_LI.svg">
+          <p class="mt-[7px] mb-[0]">Profile</p>
+        </a>
+      </div>
+    </nav>
+
+    <main>
+      <section class="sort-section">
+        <div class="sort-bar
+        fixed top-[80px] left-[0px] right-[0px] flex justify-end items-center py-[11px] pr-[12px] bg-[white] border-b border-[rgba(0,0,0,0.07)]">
+          <button class="sort-bar-button filter-button
+          flex justify-center items-center mr-[7px] bg-[white] border-0">
+            <img class="sort-bar-icon
+            h-[17px] mr-[5px]" src="../Images/Light_Theme/Inactive/filter_icon_LI.svg">
+            <p class="m-[0px] text-[13px]">Filter</p>
+          </button>
+          <button class="sort-bar-button sort-button
+          flex justify-center items-center bg-[white] border-0">
+            <img class="sort-bar-icon
+            h-[17px] mr-[5px]" src="../Images/Light_Theme/Inactive/sort_icon_LI.svg">
+            <p class="m-[0px] text-[13px]">Sort</p>
+          </button>
+        </div>
+      </section> 
+
+      <section class="handymen-section">
+        <div class="handymen
+        grid grid-cols-[1fr] gap-[5.5px] mt-[80px] px-[5px]">
+          <div class="handyman
+          grid grid-cols-[0.4fr_0.4fr_1fr] justify-center items-center pl-[8.2px] pr-[6.2px] py-[9px] border border-black border-solid rounded-[8px]">
+            <div class="handyman-left
+            flex justify- test">
+              <div class="handyman-profile-picture-c
+              ml-[8.3px] h-[42px] w-[42px]">
+                <img class="handyman-profile-picture
+                h-[100%] w-[100%] rounded-[100px]" src="../Images/Light_Theme/Inactive/profile_icon_LI.svg">
+              </div>
+            </div>
+            <div class="handyman-middle
+            flex flex-col justify-center items-centerml-[8.3px]">
+              <p class="handyman-name
+              text-center text-[14.3px] leading-[14.7px] mt-[0px] mb-[5px] px-[8px]">Georgi Atanasov</p>
+              <div class="handyman-specialties
+              flex flex-col justify-center items-center gap-[1.7px]">
+                <button class="handyman-specialty
+                text-center text-[12px] leading-[12px] leading-[12px] px-[10px] py-[3.1px] bg-[white] border border-black border-solid rounded-[100px]">Tiler</button>
+              </div>
+            </div>
+            <div class="handyman-right
+            flex flex-col justify-centerml-[8.3px] pl-[7px]">
+              <p class="handyman-description
+              text-[11.3px] mb-[5px]">Very skilled tiler. Has 10+ years of experience. Works extraordinarily well.</p>
+              <div class="handyman-locations">
+                <button class="handyman-location
+                text-center text-[12px] leading-[12px] text-[white] bg-[#1D4BCF] px-[10px] py-[3.1px] border-[0] rounded-[100px]">Sofia</button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="handyman
+          grid grid-cols-[0.4fr_0.4fr_1fr] justify-center items-center pl-[8.2px] pr-[6.2px] py-[9px] border border-black border-solid rounded-[8px]">
+            <div class="handyman-left
+            flex justify- test">
+              <div class="handyman-profile-picture-c
+              ml-[8.3px] h-[42px] w-[42px]">
+                <img class="handyman-profile-picture
+                h-[100%] w-[100%] rounded-[100px]" src="../Images/Light_Theme/Inactive/profile_icon_LI.svg">
+              </div>
+            </div>
+            <div class="handyman-middle
+            flex flex-col justify-center items-centerml-[8.3px]">
+              <p class="handyman-name
+              text-center text-[14.3px] leading-[14.7px] mt-[0px] mb-[5px] px-[8px]">Dragostin Dragostinov</p>
+              <div class="handyman-specialties
+              flex flex-col justify-center items-center gap-[1.7px]">
+                <button class="handyman-specialty
+                text-center text-[12px] leading-[12px] px-[10px] py-[3.1px] bg-[white] border border-black border-solid rounded-[100px]">Electrician</button>
+              </div>
+            </div>
+            <div class="handyman-right
+            flex flex-col justify-centerml-[8.3px] pl-[7px]">
+              <p class="handyman-description
+              text-[11.3px] mb-[5px]">Installs and repairs electrical systems, ensuring safe and reliable power in homes and buildings.</p>
+              <div class="handyman-locations">
+                <button class="handyman-location
+                text-center text-[12px] leading-[12px] text-[white] bg-[#1D4BCF] px-[10px] py-[3.1px] border-[0] rounded-[100px]">Sofia</button>
+                <button class="handyman-location
+                text-center text-[12px] leading-[12px] text-[white] bg-[#1D4BCF] px-[10px] py-[3.1px] border-[0] rounded-[100px]">Plovdiv</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="handyman
+          grid grid-cols-[0.4fr_0.4fr_1fr] justify-center items-center pl-[8.2px] pr-[6.2px] py-[9px] border border-black border-solid rounded-[8px]">
+            <div class="handyman-left
+            flex justify- test">
+              <div class="handyman-profile-picture-c
+              ml-[8.3px] h-[42px] w-[42px]">
+                <img class="handyman-profile-picture
+                h-[100%] w-[100%] rounded-[100px]" src="../Images/Light_Theme/Inactive/profile_icon_LI.svg">
+              </div>
+            </div>
+            <div class="handyman-middle
+            flex flex-col justify-center items-centerml-[8.3px]">
+              <p class="handyman-name
+              text-center text-[14.3px] leading-[14.7px] mt-[0px] mb-[5px] px-[8px]">Atanas Dimitrov</p>
+              <div class="handyman-specialties
+              flex flex-col justify-center items-center gap-[1.7px]">
+                <button class="handyman-specialty
+                text-center text-[12px] leading-[12px] leading-[12px] px-[10px] py-[3.1px] bg-[white] border border-black border-solid rounded-[100px]">Plumber</button>
+              </div>
+            </div>
+            <div class="handyman-right
+            flex flex-col justify-centerml-[8.3px] pl-[7px]">
+              <p class="handyman-description
+              text-[11.3px] mb-[5px]">Handles water systems, including pipe installation, leak repairs, and fixture maintenance.</p>
+              <div class="handyman-locations">
+                <button class="handyman-location
+                text-center text-[12px] leading-[12px] text-[white] bg-[#1D4BCF] px-[10px] py-[3.1px] border-[0] rounded-[100px]">Sofia</button>
+                <button class="handyman-location
+                text-center text-[12px] leading-[12px] text-[white] bg-[#1D4BCF] px-[10px] py-[3.1px] border-[0] rounded-[100px]">Plovdiv</button>
+                <button class="handyman-location
+                text-center text-[12px] leading-[12px] text-[white] bg-[#1D4BCF] px-[10px] py-[3.1px] border-[0] rounded-[100px]">Blagoevgrad</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="handyman
+          grid grid-cols-[0.4fr_0.4fr_1fr] justify-center items-center pl-[8.2px] pr-[6.2px] py-[9px] border border-black border-solid rounded-[8px]">
+            <div class="handyman-left
+            flex justify- test">
+              <div class="handyman-profile-picture-c
+              ml-[8.3px] h-[42px] w-[42px]">
+                <img class="handyman-profile-picture
+                h-[100%] w-[100%] rounded-[100px]" src="../Images/Light_Theme/Inactive/profile_icon_LI.svg">
+              </div>
+            </div>
+            <div class="handyman-middle
+            flex flex-col justify-center items-centerml-[8.3px]">
+              <p class="handyman-name
+              text-center text-[14.3px] leading-[14.7px] mt-[0px] mb-[5px] px-[8px]">Ivan Semeizliev</p>
+              <div class="handyman-specialties
+              flex flex-col justify-center items-center gap-[1.7px]">
+                <button class="handyman-specialty
+                text-center text-[12px] leading-[12px] px-[10px] py-[3.1px] bg-[white] border border-black border-solid rounded-[100px]">Flooring Installer</button>
+              </div>
+            </div>
+            <div class="handyman-right
+            flex flex-col justify-centerml-[8.3px] pl-[7px]">
+              <p class="handyman-description
+              text-[11.3px] mb-[5px]">Installs and finishes flooring surfaces such as laminate, hardwood, and vinyl, ensuring durability and a clean appearance.</p>
+              <div class="handyman-locations">
+                <button class="handyman-location
+                text-center text-[12px] leading-[12px] text-[white] bg-[#1D4BCF] px-[10px] py-[3.1px] border-[0] rounded-[100px]">Burgas</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="handyman
+          grid grid-cols-[0.4fr_0.4fr_1fr] justify-center items-center pl-[8.2px] pr-[6.2px] py-[9px] border border-black border-solid rounded-[8px]">
+            <div class="handyman-left
+            flex justify- test">
+              <div class="handyman-profile-picture-c
+              ml-[8.3px] h-[42px] w-[42px]">
+                <img class="handyman-profile-picture
+                h-[100%] w-[100%] rounded-[100px]" src="../Images/Light_Theme/Inactive/profile_icon_LI.svg">
+              </div>
+            </div>
+            <div class="handyman-middle
+            flex flex-col justify-center items-centerml-[8.3px]">
+              <p class="handyman-name
+              text-center text-[14.3px] leading-[14.7px] mt-[0px] mb-[5px] px-[8px]">Dimitar Hadjiivanov</p>
+              <div class="handyman-specialties
+              flex flex-col justify-center items-center gap-[1.7px]">
+                <button class="handyman-specialty
+                text-center text-[12px] leading-[12px] px-[10px] py-[3.1px] bg-[white] border border-black border-solid rounded-[100px]">Windows Installer</button>
+              </div>
+            </div>
+            <div class="handyman-right
+            flex flex-col justify-centerml-[8.3px] pl-[7px]">
+              <p class="handyman-description
+              text-[11.3px] mb-[5px]">Installs and seals windows to improve insulation, energy efficiency, and overall building security.</p>
+              <div class="handyman-locations">
+                <button class="handyman-location
+                text-center text-[12px] leading-[12px] text-[white] bg-[#1D4BCF] px-[10px] py-[3.1px] border-[0] rounded-[100px]">Varna</button>
+                <button class="handyman-location
+                text-center text-[12px] leading-[12px] text-[white] bg-[#1D4BCF] px-[10px] py-[3.1px] border-[0] rounded-[100px]">Sozopol</button>
+              </div>
+            </div>
+          </div>
+
+          
+
+          
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
