@@ -1,0 +1,192 @@
+@media (max-width: 767px){
+  @layer properties;
+  .fixed {
+    position: fixed;
+  }
+  .top-\[80px\] {
+    top: 80px;
+  }
+  .right-\[0px\] {
+    right: 0px;
+  }
+  .left-\[0px\] {
+    left: 0px;
+  }
+  .m-\[0px\] {
+    margin: 0px;
+  }
+  .mt-\[0px\] {
+    margin-top: 0px;
+  }
+  .mt-\[80px\] {
+    margin-top: 80px;
+  }
+  .mr-\[5px\] {
+    margin-right: 5px;
+  }
+  .mr-\[7px\] {
+    margin-right: 7px;
+  }
+  .mb-\[5px\] {
+    margin-bottom: 5px;
+  }
+  .ml-\[8\.3px\] {
+    margin-left: 8.3px;
+  }
+  .flex {
+    display: flex;
+  }
+  .grid {
+    display: grid;
+  }
+  .h-\[17px\] {
+    height: 17px;
+  }
+  .h-\[42px\] {
+    height: 42px;
+  }
+  .h-\[100\%\] {
+    height: 100%;
+  }
+  .w-\[42px\] {
+    width: 42px;
+  }
+  .w-\[100\%\] {
+    width: 100%;
+  }
+  .grid-cols-\[0\.3fr_0\.4fr_1fr\] {
+    grid-template-columns: 0.3fr 0.4fr 1fr;
+  }
+  .grid-cols-\[1fr\] {
+    grid-template-columns: 1fr;
+  }
+  .flex-col {
+    flex-direction: column;
+  }
+  .items-center {
+    align-items: center;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .justify-end {
+    justify-content: flex-end;
+  }
+  .gap-\[1\.7px\] {
+    gap: 1.7px;
+  }
+  .gap-\[5\.5px\] {
+    gap: 5.5px;
+  }
+  .rounded-\[8px\] {
+    border-radius: 8px;
+  }
+  .rounded-\[100px\] {
+    border-radius: 100px;
+  }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
+  .border-0 {
+    border-style: var(--tw-border-style);
+    border-width: 0px;
+  }
+  .border-\[0\] {
+    border-style: var(--tw-border-style);
+    border-width: 0;
+  }
+  .border-b {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 1px;
+  }
+  .border-solid {
+    --tw-border-style: solid;
+    border-style: solid;
+  }
+  .border-\[rgba\(0\,0\,0\,0\.07\)\] {
+    border-color: rgba(0,0,0,0.07);
+  }
+  .bg-\[\#1D4BCF\] {
+    background-color: #1D4BCF;
+  }
+  .bg-\[white\] {
+    background-color: white;
+  }
+  .px-\[5px\] {
+    padding-inline: 5px;
+  }
+  .px-\[8px\] {
+    padding-inline: 8px;
+  }
+  .px-\[10px\] {
+    padding-inline: 10px;
+  }
+  .py-\[3\.1px\] {
+    padding-block: 3.1px;
+  }
+  .py-\[11px\] {
+    padding-block: 11px;
+  }
+  .pt-\[3px\] {
+    padding-top: 3px;
+  }
+  .pr-\[6\.2px\] {
+    padding-right: 6.2px;
+  }
+  .pr-\[12px\] {
+    padding-right: 12px;
+  }
+  .pb-\[5px\] {
+    padding-bottom: 5px;
+  }
+  .pl-\[7px\] {
+    padding-left: 7px;
+  }
+  .pl-\[8\.2px\] {
+    padding-left: 8.2px;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .text-\[11\.3px\] {
+    font-size: 11.3px;
+  }
+  .text-\[12px\] {
+    font-size: 12px;
+  }
+  .text-\[13px\] {
+    font-size: 13px;
+  }
+  .text-\[14\.3px\] {
+    font-size: 14.3px;
+  }
+  .leading-\[12px\] {
+    --tw-leading: 12px;
+    line-height: 12px;
+  }
+  .leading-\[14\.7px\] {
+    --tw-leading: 14.7px;
+    line-height: 14.7px;
+  }
+  .text-\[white\] {
+    color: white;
+  }
+  @property --tw-border-style {
+    syntax: "*";
+    inherits: false;
+    initial-value: solid;
+  }
+  @property --tw-leading {
+    syntax: "*";
+    inherits: false;
+  }
+  @layer properties {
+    @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
+      *, ::before, ::after, ::backdrop {
+        --tw-border-style: solid;
+        --tw-leading: initial;
+      }
+    }
+  }
+}
