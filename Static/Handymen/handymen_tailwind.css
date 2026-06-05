@@ -126,7 +126,8 @@
     padding-block: 3.1px;
   }
   .py-\[3px\] {
-    padding-block: 5px;
+    padding-top: 3px;
+    padding-bottom: 5px;
   }
   .py-\[11px\] {
     padding-block: 11px;
